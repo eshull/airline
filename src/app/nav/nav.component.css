@@ -1,0 +1,24 @@
+.nav {
+  background: white;
+  height: 150px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.navInfo {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.NavDivTop {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.navDivBottom {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
