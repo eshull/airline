@@ -1,5 +1,6 @@
-<div class="bookingMenu">
-  <div class="bookYourTrip">
+<div class="bookingMenu" ng-controller="TabController as tabController">
+
+  <div ng-class="{ active: tabController.isTabSelected(2) }" class="bookYourTrip">
     <h3>Book Your Trip</h3>
   </div>
   <div class="webCheckIn">
@@ -15,4 +16,19 @@
     <h3>Flight Information</h3>
   </div>
 
+</div>
+
+
+
+<div ng-app>
+  <div ng-controller="ClickToEditCtrl">
+    <div ng-hide="editorEnabled">
+      {{title}}
+      <a href="#" ng-click="editorEnabled=!editorEnabled">Edit title</a>
+    </div>
+    <div ng-show="editorEnabled">
+      <input ng-model="title">
+      <a href="#" ng-click="editorEnabled=!editorEnabled">Done editing?</a>
+    </div>
+  </div>
 </div>
