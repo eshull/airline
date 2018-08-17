@@ -12,7 +12,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * As a user I want to browse flights to new places
 * As a user I want to subscribe to Airline information
 * As a user I want to find contact info for customer service
-* As a user I want to see a list of places the Airline flies to 
+* As a user I want to see a list of places the Airline flies to
+
+## Functionality
+* Currently displays all destinations on passengers
+* Destinations are hard coded into program
 
 ## Development server
 
