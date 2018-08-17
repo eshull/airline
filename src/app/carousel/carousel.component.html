@@ -1,0 +1,42 @@
+<h1>Destinations</h1>
+<div *ngFor="let currentDestination of childDestinationList">
+  <div >
+    <!-- <h3  (click)="showDestination(currentDestination)">{{currentDestination.name}}</h3>
+    <div *ngIf="destinationToShow && destinationToShow == currentDestination"> -->
+      <ul>
+        <h4>Destination: {{currentDestination.location}}</h4>
+        <h4>Departs: {{currentDestination.departure}}</h4>
+        <h4>Returns: {{currentDestination.returning}}</h4>
+        <h4>Price: ${{currentDestination.price}}</h4>
+      </ul>
+    </div>
+  </div>
+<!-- </div> -->
+<!-- <div
+  ng2-carouselamos
+  [width]="500"
+  [items]="listOfItems"
+  [$item]="itemTemplate"
+  [$prev]="prevTemplate"
+  [$next]="nextTemplate"
+  (onSelectedItem)="selectedItem = $event.item; selectedIndex = $event.index"
+></div>
+
+<div>
+  Current item selected
+</div>
+
+<ng-template #prevTemplate>
+  <img src="prev.png" />
+</ng-template>
+
+<ng-template #nextTemplate>
+  <img src="next.png" />
+</ng-template>
+
+<ng-template let-item let-i="index" #itemTemplate>
+  <div style="min-width: 200px">
+    <b *ngIf="i === selectedIndex">{{i}}. {{item.name}}</b>
+    <span *ngIf="i !== selectedIndex">{{i}}. {{item.name}}</span>
+  </div>
+</ng-template> -->
