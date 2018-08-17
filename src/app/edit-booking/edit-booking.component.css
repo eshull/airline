@@ -1,5 +1,6 @@
 .editBooking {
-  background: white;
+  background: lightgrey;
+  opacity: .5;
   height: 400px;
   width: 1400px;
 }

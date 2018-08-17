@@ -1,5 +1,40 @@
 .bookFlight {
-  background: white;
+  background: lightgrey;
+  opacity: .5;
   height: 400px;
   width: 1400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background: white;
+  opacity: 1;
+  color: #3d3dde;
+  width: 250px;
+  z-index: 1;
+}
+
+.verticalList {
+  margin-top: 50px;
+}
+
+.infoNav {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.toFrom {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.departReturn {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
