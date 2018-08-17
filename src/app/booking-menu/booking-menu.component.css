@@ -7,3 +7,33 @@
   flex-direction: row;
   margin-bottom: 10px;
 }
+
+.bookYourTrip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.webCheckIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.manageBooking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.connectMiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flightInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
