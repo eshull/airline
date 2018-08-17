@@ -6,13 +6,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { BookFlightComponent } from './book-flight/book-flight.component';
+import { EditBookingComponent } from './edit-booking/edit-booking.component';
+import { BookingMenuComponent } from './booking-menu/booking-menu.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    BookFlightComponent
+    BookFlightComponent,
+    EditBookingComponent,
+    BookingMenuComponent
   ],
   imports: [
     BrowserModule,

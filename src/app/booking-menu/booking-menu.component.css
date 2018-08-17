@@ -1,0 +1,9 @@
+.bookingMenu {
+  width: 1400px;
+  height: 120px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
