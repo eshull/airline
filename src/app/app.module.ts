@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { BookFlightComponent } from './book-flight/book-flight.component';
 import { EditBookingComponent } from './edit-booking/edit-booking.component';
 import { BookingMenuComponent } from './booking-menu/booking-menu.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { BookingMenuComponent } from './booking-menu/booking-menu.component';
     NavComponent,
     BookFlightComponent,
     EditBookingComponent,
-    BookingMenuComponent
+    BookingMenuComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
